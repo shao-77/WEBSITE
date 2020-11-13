@@ -1,0 +1,194 @@
+body{
+	margin:0px;
+	border:0px;
+	padding:0px;
+	width:100%;
+	height:100%;
+	background-image:url("beijing.jpg");
+	background-size:100% 100%;
+	background-attachment:fixed;
+}
+
+a{
+	text-decoration:none;
+}
+.contient{
+    width:100%;
+    height:100%;
+    margin:0 auto;
+    margin-top:-16px;
+}
+.nav{
+    width:100%;
+    height:60px;
+    background-color:steelblue;
+}
+              
+.dht{
+    width:1024px;
+    height:100%;
+    background-color:steelblue;
+    position:relative;
+    top:0;
+    border:0px;
+    margin:0 auto;
+}
+.dht ul{
+    width:auto;
+    list-style-type: none;
+    white-space:nowrap;
+    overflow:hidden;
+    margin-left:30px;
+    padding:0px;
+    border:0px;
+}
+#logo{
+	width:50;
+	height:50;
+}
+.dht1{
+    width:280px;
+    float:left;
+    margin-right:200px;
+    position: relative;
+    overflow: hidden;
+    margin-top:1%;
+	font-size:30px;
+	color:white;
+}
+.dht2{
+    width:80px;
+    float:left;
+    margin-right:10px;
+    position: relative;
+    overflow: hidden;
+    }
+.dht li a{
+    display: block;
+    color:white;
+    text-align: center;
+    margin-top:25%;
+    overflow: hidden;
+    text-decoration: none;
+}
+.dht li a:hover{
+	color:lightsteelblue;
+}
+.dht ul li img{
+	width:40px;
+	height:40px;
+	float:left;
+	margin-top:1%;
+	margin-right:20px;
+}
+.nav2{
+	width:800px;
+	margin:auto;
+	positon:absolute;	
+}
+.nav2 svg{
+	border-radius:10px;
+	border:1px solid white;
+	margin-left:120px;
+}
+.nav2 svg:hover{
+	border-radius:10px;
+	border:1px solid steelblue;	
+}
+      
+.contient2{
+	width:1024px;
+	height:100%;
+	margin:auto;	
+}
+							
+.tupian{
+	width:902px;
+	margin:45px auto;
+	overflow:hidden;
+}
+.tupian div{
+	width:198px;
+	float:left;
+	margin-left:25px;
+}
+.tupian div img{
+	display:block;
+	width:100%;
+	border-radius:10px;
+	border:3px solid steelblue;
+	height:200px;
+}
+.tupian div img:hover{
+	border:3px solid white;
+	border-radius:5px;
+}
+.photo{
+	margin-left:470px;
+	border:1px solid steelblue;
+	border-radius:5px;
+	background-color:white;
+	color:steelblue;
+	font-family:SimSun;
+}
+
+.tence{
+	margin:auto;
+	border:1px solid steelblue;
+	border-radius:5px;
+	width:500px;
+	margin-top:5px;
+	text-align:center;
+	background-color:white;
+	color:steelblue;
+}
+.tence2{
+	margin:auto;
+	border:1px solid steelblue;
+	border-radius:5px;
+	width:900px;
+	margin-top:5px;
+	text-align:center;
+	background-color:white;
+	color:steelblue;
+}
+.img_song{
+	position:relative;
+	z-index:1;
+	float:left;
+}
+audio{
+	width:150px;
+	height:80px;
+	position:absolute;
+	z-index:2;
+	float:left;
+	margin-top:80px;
+	margin-left:-180px;
+}
+.contient3{
+	width:1024px;
+	margin:auto;
+}
+hr{
+	margin-top:16px;
+	height:10px;
+	width:800px;
+	border:none;
+	border-top:1px solid white;
+}
+hr2{
+	margin-top:16px;
+	height:10px;
+	width:45px;
+	border:none;
+	border-top:1px solid white;
+}
+.footer{
+	width:100%;
+	position:fixed;
+	bottom:0;
+	margin-left:450px;
+	color:white;
+}
+						
